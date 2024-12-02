@@ -178,9 +178,10 @@ public:
         assert(is_game_valid(bottom_score, top_score, pits_copy) && "game state invalid!!!");
 
 
+        //everything ok, copy temp state to real
         pits = pits_copy;
-        return static_cast<MoveResult>(end_pit);
 
+        return static_cast<MoveResult>(end_pit);
 
     }
 

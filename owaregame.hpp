@@ -113,7 +113,14 @@ private:
     Board pits;
     int bottom_score = 0;
     int top_score = 0;
+    int move_count = 0;
+    int max_moves = 200;
+    int win_score = 25;
+    int start_seeds = 4;
+    int capture_low_value = 2;
+    int capture_high_value = 3;
     bool is_bottom_turn = true;
+    bool grand_slam_allowed = false;
 
 
 
